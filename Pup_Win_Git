@@ -1,0 +1,5 @@
+package {'Git':
+  ensure => installed,
+  source => 'C:\temp\Git-2.16.2-64-bit.exe',
+  install_options => ['/VERYSILENT']
+}
